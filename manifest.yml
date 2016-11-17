@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rvennam-node-personality
+  host: rvennam-node-personality
+  disk_quota: 1024M
+  services:
+  - Watson-personality_insights
+  - Compose for MongoDB-uf
+  - availability-monitoring-auto
